@@ -13,6 +13,8 @@
 		187759331D3E00C5000A1CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187759311D3E00C5000A1CFC /* Main.storyboard */; };
 		187759351D3E00C5000A1CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187759341D3E00C5000A1CFC /* Assets.xcassets */; };
 		187759381D3E00C5000A1CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187759361D3E00C5000A1CFC /* LaunchScreen.storyboard */; };
+		187759411D3E00E4000A1CFC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187759401D3E00E4000A1CFC /* SecondViewController.m */; };
+		187759441D3E00FD000A1CFC /* YXPresentOneTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 187759431D3E00FD000A1CFC /* YXPresentOneTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		187759341D3E00C5000A1CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187759371D3E00C5000A1CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187759391D3E00C5000A1CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1877593F1D3E00E4000A1CFC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		187759401D3E00E4000A1CFC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		187759421D3E00FD000A1CFC /* YXPresentOneTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPresentOneTransition.h; sourceTree = "<group>"; };
+		187759431D3E00FD000A1CFC /* YXPresentOneTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPresentOneTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				187759361D3E00C5000A1CFC /* LaunchScreen.storyboard */,
 				187759391D3E00C5000A1CFC /* Info.plist */,
 				187759281D3E00C5000A1CFC /* Supporting Files */,
+				1877593F1D3E00E4000A1CFC /* SecondViewController.h */,
+				187759401D3E00E4000A1CFC /* SecondViewController.m */,
+				187759421D3E00FD000A1CFC /* YXPresentOneTransition.h */,
+				187759431D3E00FD000A1CFC /* YXPresentOneTransition.m */,
 			);
 			path = ViewControllerTransAnimate;
 			sourceTree = "<group>";
@@ -149,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187759411D3E00E4000A1CFC /* SecondViewController.m in Sources */,
 				187759301D3E00C5000A1CFC /* ViewController.m in Sources */,
 				1877592D1D3E00C5000A1CFC /* AppDelegate.m in Sources */,
+				187759441D3E00FD000A1CFC /* YXPresentOneTransition.m in Sources */,
 				1877592A1D3E00C5000A1CFC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

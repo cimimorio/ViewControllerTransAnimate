@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SecondViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,22 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	
+	
+	
 }
+
+
+
+- (IBAction)btnClicked:(id)sender {
+	
+	
+	SecondViewController *secVC = [[SecondViewController alloc] init];
+	[self presentViewController:secVC animated:YES completion:nil];
+	
+}
+
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
